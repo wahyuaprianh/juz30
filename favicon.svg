@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143c2c"/>
+      <stop offset="100%" stop-color="#1b4332"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9c285"/>
+      <stop offset="100%" stop-color="#c5924a"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded Base Background -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Inner Border -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="none" stroke="#d4a373" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Islamic 8-Pointed Star (Rub el Hizb) -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="2.4" stroke-linejoin="round">
+    <rect x="17" y="17" width="30" height="30" rx="3"/>
+    <rect x="17" y="17" width="30" height="30" rx="3" transform="rotate(45 32 32)"/>
+  </g>
+
+  <!-- Central Ornament Core -->
+  <circle cx="32" cy="32" r="6.5" fill="url(#goldGrad)"/>
+  <circle cx="32" cy="32" r="2.8" fill="#143c2c"/>
+</svg>
